@@ -1,4 +1,4 @@
-![alt text](https://github.com/EDU-DevMan/video_player_v1_0_0/blob/main/layout.png?raw=true)
+![alt text](https://github.com/EDU-DevMan/video_player_v2_0_0/blob/main/layout.png?raw=true)
 
 # О проекте
 
