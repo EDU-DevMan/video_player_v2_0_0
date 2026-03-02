@@ -1,0 +1,8 @@
+.idea/
+__pycache__
+.venv
+.env
+.venv.bak
+.env.bak
+livereload_website.py
+tutorial.html
