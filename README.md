@@ -13,7 +13,7 @@
 
 Подробная документация представлена по [ссылке](https://github.com/devmanorg/video-player-jslib)
 
-Рабочий пример [плеера](https://github.com/EDU-DevMan/video_player_v2_0_0)
+Рабочий пример [плеера](https://edu-devman.github.io/video_player_v2_0_0/)
 
 # Для разработчика
 
