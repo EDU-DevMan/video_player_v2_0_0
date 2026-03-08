@@ -13,6 +13,11 @@
   box-shadow: 0 0 15px rgb(71, 71, 71);
 }
 
+.player .container-button{
+  display: flex;
+  flex-direction:row;
+}
+
 .player .js-play-button {
   background-color:black;
   cursor: pointer;
@@ -48,6 +53,63 @@
   font-size: 14pt;
 }
 
+/* начало: цифры таймера */
+/* слева */
+.player .js-current-time{
+  margin: 7px 5px 5px 2px;
+  color:  white;
+  font-family: Roboto;
+}
+
+/* справа */
+.player .js-duration{
+  margin: 7px 1px 6px 5px;
+  color: white;
+  font-family: Roboto;
+}
+/* конец: блока */
+
+/* начало: блок прогрессбар */
+/* внешний */
+.player .js-progress{
+  height: 5px;
+  width: 5px;
+  border-radius: 120px;
+  margin: 8px 5px 5px 5px;
+  background-color: grey;
+  flex: 2 1 0px;
+  align-self: center;
+
+}
+
+/* flex для закругленного бегунка */
+.player .slider-flax{
+  display: flex ;
+  flex-direction:row;
+  margin: -5px 0px 0px 0px;
+}
+
+/* внутренний */
+.player .js-progress-slider{
+  height: 5px;
+  width: 5px;
+  border-radius: 120px;
+  background-color: red;
+  margin: 5px 0px 0px 0px;
+}
+
+/* закругленный бегунок */
+.player .slider-circle {
+  width: 8px;
+  height: 8px;
+  background-color: rgb(255, 0, 0);
+  box-shadow: 0px 0px 0px 3px rgb(255, 255, 255);
+  border-radius: 50%; 
+  border-color: rgb(255, 255, 255);
+  margin: 3px 0px 0px 0px;
+}
+/* конец: блока */
+
 .player i {
   width: 16px;
   height: 14px;
@@ -60,11 +122,6 @@
   height: 100%;
 }
 
-.player .container-button{
-  display: flex;
-  flex-direction:row;  
-}
-
-.player .container-button div{
-  flex-grow: 1;
-}
+/* .player .container-button .block-default{
+  flex: 1 2 0px;
+} */
